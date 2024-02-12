@@ -8,20 +8,20 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  python,
   tailwind,
   nodejs,
-  mongodb,
+  r,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  frontec,
+  makers,
+  microsoft,
+  uber,
+  legalaid,
+  dropnot,
+  emergencia_temp,
   threejs,
 } from "../assets";
 
@@ -42,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Developer",
     icon: web,
   },
   {
@@ -52,10 +52,6 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -81,8 +77,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "python Toolkit",
+    icon: python,
   },
   {
     name: "Tailwind CSS",
@@ -93,8 +89,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "r",
+    icon: r,
   },
   {
     name: "Three JS",
@@ -116,55 +112,52 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "SWE Career Prep Fellow",
+    company_name: "Uber",
+    icon: uber,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Feb 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Selected as a fellow for the 2024 cohort, with a 4% acceptance rate.",
+      "Collaborating with industry mentors, gaining insights and guidance tailored to achieving professional milestones and enhancing technical competencies.",
+      "Actively engaging in workshops focused on enhancing technical knowledge, professional skills, and industry insight.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Microsoft Learn Student Ambassador",
+    company_name: "Microsoft",
+    icon: microsoft,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Represented Microsoft as a Student Ambassador, promoting Microsoft products and technologies within the university community, underwent training on AI and machine learning path.",
+      "Currently organizing workshops and other events to promote Microsoft technologies and products.",
+      "Collaborating with other ambassadors to create and execute events and initiatives.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "President / Founder",
+    company_name: "Frontec",
+    icon: frontec,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Nov 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Founded a student council focused on front-end web development.",
+      "Developed, conducted, and promoted a variety of extracurricular programs for students and campus teachers.",
+      "Established and maintained a conducive environment for student learning and integration with different careers.",
+      "Currently developing a learning hub with a group of 5 students to ensure consistent growth with CSSBattles and create a roadmap for students to follow and log.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Makers Fellow",
+    company_name: "makers",
+    icon: makers,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Selected as a fellow for a program for Latin America's next top entrepreneurs, founded by Andres Bilbao, co-founder of Rappi.",
+      "Undergoing workshops and training to enhance technical and behaivioral skills and knowledge.",
+      "Collaborating with industry mentors to gain insights and guidance tailored to achieving professional milestones.",
     ],
   },
 ];
@@ -198,7 +191,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Legal AId",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -207,7 +200,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "r",
         color: "green-text-gradient",
       },
       {
@@ -215,8 +208,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: legalaid,
+    source_code_link: "https://devpost.com/software/legalaid",
   },
   {
     name: "Job IT",
@@ -236,8 +229,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dropnot,
+    source_code_link: "https://devpost.com/software/dropnot",
   },
   {
     name: "Trip Guide",
@@ -257,8 +250,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: emergencia_temp,
+    source_code_link: "https://devpost.com/software/emergencia-mr4ed8",
   },
 ];
 

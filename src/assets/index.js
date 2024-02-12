@@ -26,9 +26,9 @@ import makers from "./company/makers.png";
 import microsoft from "./company/microsoft.png";
 import uber from "./company/uber.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import legalaid from "./legalaid.png";
+import dropnot from "./dropnot.png";
+import emergencia_temp from "./emergencia_temp.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   makers,
   microsoft,
   uber,
-  carrent,
-  jobit,
-  tripguide,
+  legalaid,
+  dropnot,
+  emergencia_temp,
 };
