@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -77,7 +76,7 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "python Toolkit",
+    name: "python",
     icon: python,
   },
   {
@@ -165,46 +164,49 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I highly recommend Ramiro as a software engineer. His attention to detail and proactive problem-solving approach significantly contributed to his success.",
+    name: "Aaron García",
+    designation: "Software Engineer",
+    company: "Google",
+    image:
+      "https://media.licdn.com/dms/image/C4E03AQH0YMBLONnelA/profile-displayphoto-shrink_800_800/0/1545177831736?e=1713398400&v=beta&t=aCCPWYT0DP60i2crGE54gyAkuJXh4OSk_5srBpFz79Q",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Working with Ramiro was a game-changer for our project. Their leadership and growth mindset were evident throughout, inspiring the team to push boundaries and embrace new challenges. Ramiro fosters a culture of continuous learning and innovation, making them an invaluable asset to any team.",
+    name: "Alberto Tamez",
+    designation: "Former Intern",
+    company: "Microsoft",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQEsx9ITRgtmZg/profile-displayphoto-shrink_400_400/0/1692590789982?e=1713398400&v=beta&t=5aCIRJ6cb5V4cSHkSKRt2bNmLqbrnCpXJOCozjZA3iY",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Teaming up with Ramiro on our project was a game-changer. Their leadership and growth mindset were pivotal in propelling our team forward. Ramiro impulsed collaboration and innovation, inspiring us to excel. Their adaptability and problem-solving skills were key to our success.",
+    name: "Adolfo Gonzalez",
+    designation: "Fellow",
+    company: "Makers",
+    image:
+      "https://media.licdn.com/dms/image/D4E03AQE4k9D5-Hf_HA/profile-displayphoto-shrink_800_800/0/1693524253055?e=1713398400&v=beta&t=0PgIBa4QaltcJGkGd3gMh5Z1NnOV58vUhGQgabmO-YM",
   },
 ];
 
 const projects = [
   {
-    name: "Legal AId",
+    name: "Legal AId - MLH Hackathon Winner (HackHarvard 2023)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Engineered a customized Google Cloud PaLM model for legal assistance, integrated Kubernetes Vector Search for fast legal information retrieval, using Python and Flask for backend infrastructure.",
     tags: [
       {
-        name: "react",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "r",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "googlecloud",
         color: "pink-text-gradient",
       },
     ],
@@ -212,46 +214,46 @@ const projects = [
     source_code_link: "https://devpost.com/software/legalaid",
   },
   {
-    name: "Job IT",
+    name: "EmergencIA - MLH Hackathon Winner (HackMTY 2023, 2nd Place)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Engineered and automated an emergency call system utilizing natural language understanding and analysis to redirect 911 calls during operator busy periods, efficiently answering, interpreting, and providing authorities a dynamic visualization of current cases, developing 100% of the project’s back-end.",
     tags: [
       {
-        name: "react",
+        name: "node.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: dropnot,
-    source_code_link: "https://devpost.com/software/dropnot",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "NLP",
         color: "pink-text-gradient",
       },
     ],
     image: emergencia_temp,
     source_code_link: "https://devpost.com/software/emergencia-mr4ed8",
+  },
+  {
+    name: "DropNot - MLH Hackathon Winner (HackMTY 2022, 1st Place)",
+    description:
+      "Designed and developed a mobile application with React Native Expo with the purpose of creating a measurable and conscious use of water services.",
+    tags: [
+      {
+        name: "iot",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "reactnative",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dropnot,
+    source_code_link: "https://devpost.com/software/dropnot",
   },
 ];
 
