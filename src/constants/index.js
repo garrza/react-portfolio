@@ -257,11 +257,4 @@ const projects = [
   },
 ];
 
-export {
-  services,
-  technologies,
-  experiences,
-  testimonials,
-  projects,
-  navLinks,
-};
+export { services, technologies, experiences, testimonials, projects };
