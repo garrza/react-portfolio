@@ -55,7 +55,7 @@ const Navbar = () => {
           onClick = {() => setToggle(!toggle)}
           />
           <div className={`${!toggle ? 'hidden' :
-           'flex'} p-6 black-gradient absolute 
+           'flex'} p-6 retro-bg absolute 
            top-20 right-0 mx-4 my-2 min-w-[140px]
            z-10`}>
             <ul className='list-none flex

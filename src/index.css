@@ -19,13 +19,24 @@
   color: #fff;
 }
 
+.accent {
+  background: #FFFF00;
+  margin-top: -1px;
+}
+
+.text-accent {
+  background: #FFFF00;
+  background-size: contain;
+  color: #000;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
 }
 
-.black-gradient {
+.retro-bg {
   background: #c2c6ca; /* fallback for old browsers */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 0.5px 0.5px 0 0.5px black, inset 1px 1px #C2C6CA, inset -1px -1px #85898d, inset 2px 2px white;
 }
