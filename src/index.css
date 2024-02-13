@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Workbench&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&family=Workbench&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +10,13 @@
   box-sizing: border-box;
   font-family: "DotGothic16", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
+}
+
+.boldtitle {
+  font-family: "Workbench", sans-serif;
+  font-weight: 500;
+  color: #fff;
 }
 
 .hash-span {
