@@ -6,12 +6,12 @@ import CanvasLoader from '../Loader';
 
 
 const Computers = () => {
-  const computer = useGLTF('./computer/scene.glb');
+  const computer = useGLTF('./computer/computer2.glb');
   return (
     <mesh>
-      <hemisphereLight intensity={0.8} 
+      <hemisphereLight intensity={2} 
       groundColor="black"/>
-      <pointLight intensity={.6}/>
+      <pointLight intensity={1}/>
       <primitive 
       object={computer.scene}
       scale={1.75}
