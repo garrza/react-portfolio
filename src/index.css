@@ -134,6 +134,15 @@
   transform: translateZ(0);
 }
 
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid yellow;
+  margin-top: -7px;
+  margin-left: -4.75px;
+}
 @keyframes mulShdSpin {
   0%,
   100% {
