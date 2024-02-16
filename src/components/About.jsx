@@ -45,7 +45,7 @@ const About = () => {
         creating impactful, user-centric solutions that enhance digital 
         security while ensuring a positive experience for people.
       </motion.p>
-      <div className="empty-10 flex flex-wrap gap-5 p-10">
+      <div className="empty-10 flex flex-wrap gap-5 p-10 justify-around	">
         {services.map((service, index) => {
           return (
             <ServiceCard

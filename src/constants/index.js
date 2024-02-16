@@ -110,7 +110,7 @@ const experiences = [
     title: "SWE Career Prep Fellow",
     company_name: "Uber",
     icon: uber,
-    iconBg: "#383E56",
+    iconBg: "white",
     date: "Feb 2024 - Present",
     points: [
       "Selected as a fellow for the 2024 cohort, with a 4% acceptance rate.",
@@ -122,7 +122,7 @@ const experiences = [
     title: "Microsoft Learn Student Ambassador",
     company_name: "Microsoft",
     icon: microsoft,
-    iconBg: "#E6DEDD",
+    iconBg: "white",
     date: "Jan 2024 - Present",
     points: [
       "Represented Microsoft as a Student Ambassador, promoting Microsoft products and technologies within the university community, underwent training on AI and machine learning path.",
@@ -134,7 +134,7 @@ const experiences = [
     title: "President / Founder",
     company_name: "Frontec",
     icon: frontec,
-    iconBg: "#383E56",
+    iconBg: "white",
     date: "Nov 2022 - Present",
     points: [
       "Founded a student council focused on front-end web development.",
@@ -147,7 +147,7 @@ const experiences = [
     title: "Makers Fellow",
     company_name: "makers",
     icon: makers,
-    iconBg: "#E6DEDD",
+    iconBg: "white",
     date: "Jan 2024 - Present",
     points: [
       "Selected as a fellow for a program for Latin America's next top entrepreneurs, founded by Andres Bilbao, co-founder of Rappi.",
