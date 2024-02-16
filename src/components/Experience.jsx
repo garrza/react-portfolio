@@ -22,6 +22,18 @@ const ExperienceCard = ({experience}) => (
       <h3 className="text-white text-[24px]">
         {experience.title}
       </h3>
+      <p className="text-[16px]
+      text-yellow"
+      style={{margin:0}}>
+      {experience.company_name}
+      </p>
+      <ul className="mt-5 list-disc ml-5 space-y-2">
+        {experience.points.map((point, index) => (
+          <li key={index} className="text-[16px] text-white">
+            {point}
+          </li>
+        ))}
+      </ul>
     </div>
   </VerticalTimelineElement>
 )

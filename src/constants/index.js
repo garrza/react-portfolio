@@ -145,7 +145,7 @@ const experiences = [
   },
   {
     title: "Makers Fellow",
-    company_name: "makers",
+    company_name: "Makers",
     icon: makers,
     iconBg: "white",
     date: "Jan 2024 - Present",
