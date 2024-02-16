@@ -10,9 +10,9 @@ function HOC(){
         initial='hidden'
         whileInView='show'
         viewport={{once: true, amount: 0.25}}
-        className={`${styles.paddingX} relative max-w-7xl mx-auto z-0 `} 
+        className={`${styles.paddingX} relative max-w-7xl mx-auto z-0 pt-20`} 
         >
-            <span className='hash-span border-2' id={idName}>
+            <span className='hash-span' id={idName}>
                 &nbsp;
                 <Component/>
             </span>
