@@ -1,6 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import SectionWrapper from "../hoc/SectionWrapper";
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -19,7 +20,7 @@ const ServiceCard = ({index, title, icon}) => {
           speed: 450,
         }}
         className="retro-bg py-5 px-12 min-h-[250px] flex justify-evenly items-center flex-col">
-          <img src={icon} alt={title} className=" h-16"/>
+          <img src={icon} alt={title} className="h-16"/>
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
       </motion.div>
@@ -44,7 +45,7 @@ const About = () => {
         creating impactful, user-centric solutions that enhance digital 
         security while ensuring a positive experience for people.
       </motion.p>
-      <div className="empty-10 flex flex-wrap gap-5">
+      <div className="empty-10 flex flex-wrap gap-5 p-10">
         {services.map((service, index) => {
           return (
             <ServiceCard
@@ -59,4 +60,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About, "about");

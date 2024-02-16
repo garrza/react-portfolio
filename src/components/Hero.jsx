@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import SectionWrapper from '../hoc/SectionWrapper';
 
 
 const Hero = () => {
@@ -30,7 +31,7 @@ const Hero = () => {
       bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[54px] border-2 border-white
-          retro-bg flex-column justify-center  p-3.5'>
+          retro-bg flex-column justify-center p-3.5'>
             <motion.div
             animate={{ y: [0, 10, 0] }}
             transition={{
@@ -54,4 +55,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Hero;
