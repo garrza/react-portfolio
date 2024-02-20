@@ -210,27 +210,6 @@ const projects = [
     source_code_link: "https://devpost.com/software/legalaid",
   },
   {
-    name: "EmergencIA - MLH Hackathon Winner (HackMTY 2023, 2nd Place)",
-    description:
-      "Engineered and automated an emergency call system utilizing natural language understanding and analysis to redirect 911 calls during operator busy periods, efficiently answering, interpreting, and providing authorities a dynamic visualization of current cases, developing 100% of the project’s back-end.",
-    tags: [
-      {
-        name: "node.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "NLP",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: emergencia_temp,
-    source_code_link: "https://devpost.com/software/emergencia-mr4ed8",
-  },
-  {
     name: "DropNot - MLH Hackathon Winner (HackMTY 2022, 1st Place)",
     description:
       "Designed and developed a mobile application with React Native Expo with the purpose of creating a measurable and conscious use of water services.",
@@ -250,6 +229,27 @@ const projects = [
     ],
     image: dropnot,
     source_code_link: "https://devpost.com/software/dropnot",
+  },
+  {
+    name: "EmergencIA - MLH Hackathon Winner (HackMTY 2023, 2nd Place)",
+    description:
+      "Engineered and automated an emergency call system utilizing natural language understanding and analysis to redirect 911 calls during operator busy periods, efficiently answering, interpreting, and providing authorities a dynamic visualization of current cases, developing 100% of the project’s back-end.",
+    tags: [
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: emergencia_temp,
+    source_code_link: "https://devpost.com/software/emergencia-mr4ed8",
   },
 ];
 
