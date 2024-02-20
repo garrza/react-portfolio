@@ -160,7 +160,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I highly recommend Ramiro as a software engineer. His attention to detail and proactive problem-solving approach significantly contributed to his success.",
+      "I highly recommend Ramiro as a software engineer. His attention to detail and proactive problem-solving approach significantly contribute to great results when working on projects.",
     name: "Aaron García",
     designation: "Software Engineer",
     company: "Google",
@@ -169,7 +169,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Working with Ramiro was a game-changer for our project. Their leadership and growth mindset were evident throughout, inspiring the team to push boundaries and embrace new challenges. Ramiro fosters a culture of continuous learning and innovation, making them an invaluable asset to any team.",
+      "Working with Ramiro was a game-changer for our project. His leadership and growth mindset were evident throughout, inspiring the team to push boundaries and embrace new challenges. Ramiro fosters a culture of continuous learning and innovation, making them an invaluable asset to any team.",
     name: "Alberto Tamez",
     designation: "Former Intern",
     company: "Microsoft",
@@ -178,7 +178,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Teaming up with Ramiro on our project was a game-changer. Their leadership and growth mindset were pivotal in propelling our team forward. Ramiro impulsed collaboration and innovation, inspiring us to excel. Their adaptability and problem-solving skills were key to our success.",
+      "Teaming up with Ramiro on our project was a game-changer. His leadership and growth mindset were pivotal in propelling our team forward. Ramiro impulsed collaboration and innovation, inspiring us to excel. Their adaptability and problem-solving skills were key to the hackathon wins we have obtained so far.",
     name: "Adolfo Gonzalez",
     designation: "Fellow",
     company: "Makers",
