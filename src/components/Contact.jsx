@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        import.meta.env.REACT_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.REACT_APP_EMAILJS_TEMPLATE_ID,
     {
       from_name: form.name,
       to_name: "Ramiro Garza",
@@ -42,7 +42,7 @@ const Contact = () => {
       to_email: "garza.ramirov@gmail.com",
       message: form.message,
     },
-        process.env.REACT_APP_EMAILJS_USER_ID
+        import.meta.env.REACT_APP_EMAILJS_USER_ID
       )
       .then(
         () => {
