@@ -39,7 +39,7 @@ const Feedbacks = () => {
         <motion.div
         variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={`${styles.sectionHeadText} text-primary`}>testimonials</h2>
+          <h2 className={`${styles.sectionHeadText} blue-txt`}>testimonials</h2>
         </motion.div>
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14
