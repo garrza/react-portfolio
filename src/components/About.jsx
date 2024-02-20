@@ -49,7 +49,7 @@ const About = () => {
         {services.map((service, index) => {
           return (
             <ServiceCard
-            key={service.id}
+            key={service.title}
             index={index}
             title={service.title}
             icon={service.icon}/>
