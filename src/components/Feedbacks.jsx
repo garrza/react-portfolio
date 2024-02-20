@@ -34,8 +34,8 @@ const FeedbackCard = ({ index, testimonial, name,
 const Feedbacks = () => {
   return (
     <div
-    className='mt-12 bg-white'>
-      <div className={`${styles.padding} bg-white min-h-[300px] retro-border`}>
+    className='mt-12 bg-white rounded-2xl'>
+      <div className={`${styles.padding} bg-white min-h-[300px] rounded-2xl`}>
         <motion.div
         variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>

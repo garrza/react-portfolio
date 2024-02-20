@@ -23,16 +23,16 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
           }}
-        className="retro-bg p-5 sm:w-[360px] w-[360px] justify-center"
+        className="retro-bg p-5 sm:w-[360px] w-[360px] justify-center rounded-2xl"
         >
-          <div className="relative w-full h-[230px]">
-            <img src={image} alt={name} className="w-full h-full object-cover"/>
+          <div className="relative w-full h-[230px] ">
+            <img src={image} alt={name} className="w-full h-full object-cover "/>
             <div
             className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
               onClick={() => 
                 window.open(source_code_link, "_blank")}
-                className="cursor-pointer w-10 h-10 retro-bg flex justify-center items-center rounded-full"
+                className="cursor-pointer w-10 h-10 retro-bg flex justify-center items-center rounded-full "
               >
                 <img src={github} alt={github} className="w-6 h-6"/>
               </div>

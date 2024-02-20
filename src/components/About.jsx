@@ -19,7 +19,7 @@ const ServiceCard = ({index, title, icon}) => {
           scale: 1,
           speed: 450,
         }}
-        className="retro-bg py-5 px-12 min-h-[250px] flex justify-evenly items-center flex-col">
+        className="retro-bg py-5 px-12 min-h-[250px] flex justify-evenly items-center flex-col rounded-2xl">
           <img src={icon} alt={title} className="h-16"/>
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
