@@ -29,6 +29,9 @@ import legalaid from "./legalaid.png";
 import dropnot from "./dropnot.png";
 import emergencia_temp from "./emergencia_temp.jpeg";
 
+import githubpixel from "./github_pixel.png";
+import linkpixel from "./link_pixel.png";
+
 export {
   logo,
   backend,
@@ -57,4 +60,6 @@ export {
   legalaid,
   dropnot,
   emergencia_temp,
+  githubpixel,
+  linkpixel,
 };

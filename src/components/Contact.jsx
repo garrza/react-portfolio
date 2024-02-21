@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { githubpixel, linkpixel } from "../assets";
+
 const emailjsServiceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
 const emailjsTemplateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
 const emailjsPublicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
@@ -80,6 +82,27 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText} blue-txt`}>contact me</h3>
 
+        <div
+        className="mt-7 flex gap-5 items-center">
+          <button
+          className="retro-yellow italic py-2 px-5 rounded-xl outline-none w-fit text-black shadow-md shadow-primary"
+          onClick={() => window.open("https://drive.google.com/file/d/17238hO2waX5ysYSCPqICShZtqV-6F8PZ/view?usp=sharing")}
+          >
+            Download my resume
+          </button>
+          <img
+            src={githubpixel}
+            alt="github"
+            className="w-8 h-8 cursor-pointer"
+            onClick={() => window.open("https://github.com/garrza")}
+            />
+          <img
+            src={linkpixel}
+            alt="linkedin"
+            className="w-8 h-8 cursor-pointer"
+            onClick={() => window.open("https://www.linkedin.com/in/ramiro-garza-villarreal/")}
+            />
+        </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
