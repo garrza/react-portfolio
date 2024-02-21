@@ -2,7 +2,7 @@
 
 React Portfolio is a personal portfolio website built with Vite, React, and Three.js. It showcases my skills and projects as a web developer and designer. You can view it online at:
 
-### [garrza.com](www.garrza.com)
+### www.garrza.com
 
 ## Features
 
