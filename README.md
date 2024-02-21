@@ -31,4 +31,4 @@ This project is licensed under the MIT License. See the [LICENSE](https://www.no
 
 ## Contact
 
-If you have any questions, feedback, or suggestions, you can reach me at garrza.dev@gmail.com or through the contact form on the website. You can also follow me on [Twitter](https://www.jondjones.com/tactics/productivity/learn-how-to-create-beautiful-developer-readmemd-files-easily/) or [LinkedIn](https://dev.to/github/how-to-create-the-perfect-readme-for-your-open-source-project-1k69) to see more of my work.
+If you have any questions, feedback, or suggestions, you can reach me at garrza.dev@gmail.com or through the contact form on the website.
