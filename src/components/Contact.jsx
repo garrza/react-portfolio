@@ -7,9 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-const emailjsServiceId = process.env.VITE_APP_EMAILJS_SERVICE_ID;
-const emailjsTemplateId = process.env.VITE_APP_EMAILJS_TEMPLATE_ID;
-const emailjsPublicKey = process.env.VITE_APP_EMAILJS_PUBLIC_KEY;
+const emailjsServiceId = import.meta.env.VITE_APP_EMAILJS_SERVICE_ID;
+const emailjsTemplateId = import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID;
+const emailjsPublicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
 
 
 const Contact = () => {
