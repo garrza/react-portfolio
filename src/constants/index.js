@@ -178,7 +178,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Teaming up with Ramiro on our project was a game-changer. His leadership and growth mindset were pivotal in propelling our team forward. Ramiro impulsed collaboration and innovation, inspiring us to excel. Their adaptability and problem-solving skills were key to the hackathon wins we have obtained so far.",
+      "Teaming up with Ramiro on our project was a game-changer. His leadership and growth mindset were pivotal in propelling our team forward. Ramiro impulsed collaboration and innovation, inspiring us to excel. His adaptability and problem-solving skills were key to the hackathon wins we have obtained so far.",
     name: "Adolfo Gonzalez",
     designation: "Fellow",
     company: "Makers",
