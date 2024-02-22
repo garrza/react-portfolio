@@ -41,7 +41,7 @@ const About = () => {
         my name is ramiro garza, i'm a fullstack developer from mexico.
         with a focus on cybersecurity, my goal is to craft efficient solutions
         that not only protect individuals but also bridge the gap
-        between technology and humans. i thrive thrive on the challenge of 
+        between technology and humans. i thrive on the challenge of 
         creating impactful, user-centric solutions that enhance digital 
         security while ensuring a positive experience for people.
       </motion.p>
